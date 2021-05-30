@@ -2,24 +2,37 @@
 NFL data used in personal projects
 
 
-nflteams.js exports a teams constant which is an array of objects with the following structure:
+##nflteams.js 
+Exports a teams constant variable which is an array of objects with the following structure for all 32 nfl teams.  May eventually update to include more information like team colors.  If you have suggestions, feel free to leave those.
 
 ```js
 {
   id: "PIT",
-  
   mascot: "Steelers",
-  
   fullname: "Pittsburgh Steelers",
-  
   stadium: "Heinz Field",
-  
   division: "AFC North",
-  
   city: "Pittsburgh",
-  
   state: "PA"
-  
  }
 ```
 
+##pit-schedule-2021.js
+Exports a schedule constant variable for the 2021 season for the Pittsburgh Steelers.  Currently no plans to do other teams, but I do plan on updating this throughout the football season for the steelers.
+
+```js
+{
+  preseason: [
+    {
+      id: 
+    }
+  ],
+  season: [
+  
+  ],
+  postseason: [
+  
+  ]
+}
+
+```
