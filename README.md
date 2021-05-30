@@ -24,15 +24,29 @@ Exports a schedule constant variable for the 2021 season for the Pittsburgh Stee
 {
   preseason: [
     {
-      id: 
+      id: "p1",
+      week: 1,
+      opponent: "DAL",
+      home: false,
+      date: new Date("August 8, 2021 19:00"),
+      venue: "Tom Benson Stadium",
+      homeScore: "",
+      awayScore: "",
     }
   ],
   season: [
-  
+      {
+      id: "w1",
+      week: 1,
+      opponent: "BUF",
+      home: false,
+      date: new Date("September 12, 2021 12:00"),
+      venue: "Highmark Stadium",
+      homeScore: "",
+      awayScore: "",
+    }
   ],
-  postseason: [
-  
-  ]
+  postseason: []
 }
 
 ```
