@@ -7,12 +7,19 @@ nflteams.js exports a teams constant which is an array of objects with the follo
 
 {
   id: "PIT",
+  
   mascot: "Steelers",
+  
   fullname: "Pittsburgh Steelers",
+  
   stadium: "Heinz Field",
+  
   division: "AFC North",
+  
   city: "Pittsburgh",
+  
   state: "PA"
+  
  }
 
 
